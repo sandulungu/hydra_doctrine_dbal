@@ -1,0 +1,17 @@
+{
+    "name": "hydra/doctrine-dbal",
+    "type": "hydra-plugin",
+    "description": "Doctrine DBAL plugin for Hydra.",
+    "homepage": "http://z7.github.com/hydra",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sandu Lungu",
+            "email": "sandu@lungu.info"
+        }
+    ],
+    "require": {
+        "hydra/hydra": "*",
+        "doctrine/dbal": "2.*"
+    }
+}
