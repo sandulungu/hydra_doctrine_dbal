@@ -22,7 +22,7 @@ $hooks['app.config'][-1000][] = function(&$config) {
 // Default Doctrine DBAL service.
 $services['app.doctrine.dbal'][0] = function(App $app) {
     $evm = new \Doctrine\Common\EventManager();
-    $params = $app->config['doctrine'];
+    $params = $app->config['doctrine.dbal'];
     
     if ($params['driver'] == 'pdo_mysql') {
         $params += array(
