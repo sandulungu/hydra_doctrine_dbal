@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "hydra/hydra": "*",
+        "hydra/plugin-installer": "*",
         "doctrine/dbal": "2.*"
     }
 }
