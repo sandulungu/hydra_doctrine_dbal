@@ -16,3 +16,8 @@ namespace Hydra;
  * @property \Doctrine\DBAL\Connection $doctrine__dbal 
  */
 class App {}
+
+/**
+ * @property array $doctrine__dbal 
+ */
+class Config {}

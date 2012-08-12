@@ -13,5 +13,10 @@
     "require": {
         "hydra/plugin-installer": "*",
         "doctrine/dbal": "2.*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.x-dev"
+        }
     }
 }
