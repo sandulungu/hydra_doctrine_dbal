@@ -27,7 +27,7 @@ $hooks['app.init'][0][] = function (App $app, &$services) {
         $services['app.doctrine.dbal' . ($name == 'default' ? '' : ".$name")][0] = function() use (&$params) {
             if ($params['driver'] == 'pdo_mysql') {
                 $params += array(
-                    'username' => 'root',
+                    'user' => 'root',
                     'dbname' => 'hydra',
                     'charset' => 'utf8',
                 );
